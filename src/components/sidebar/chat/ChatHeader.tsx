@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import "./ChatHeader.scss";
 import NotificationsIcon from "@mui/icons-material/Notifications";
@@ -37,4 +38,26 @@ export default function ChatHeader(props: ChatHeaderProps) {
       </div>
     </>
   );
+=======
+import React from 'react'
+import "./ChatHeader.scss"
+
+export default function ChatHeader() {
+  return (
+    <>
+    <div className='CharHeader'>
+        <div className='ChatheaderLeft'>
+            <h3>
+                <span className='ChatHeaderhash'></span>
+                Udemy
+            </h3>
+        </div>
+        
+        <div className='ChatHeaderRight'>
+            
+        </div>
+    </div>
+    </>
+  )
+>>>>>>> e58d7d3335509d4ffb00cb3200f95008c9dfd11b
 }

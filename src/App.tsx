@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect } from "react";
 import "./App.scss";
 import Sidebar from "./components/sidebar/Sidebar";
@@ -49,6 +50,21 @@ function App() {
           </>
         )}
       </div>
+=======
+import React from 'react';
+import './App.scss';
+import Sidebar from './components/sidebar/Sidebar';
+import Chat from './components/sidebar/Chat';
+
+
+function App() {
+  return (
+    <>
+    <div className='App'>
+    <Sidebar/>
+    <Chat />
+    </div>
+>>>>>>> e58d7d3335509d4ffb00cb3200f95008c9dfd11b
     </>
   );
 }

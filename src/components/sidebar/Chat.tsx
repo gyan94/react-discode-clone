@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect, useState } from "react";
 import "./Chat.scss";
 import ChatHeader from "./chat/ChatHeader";
@@ -129,4 +130,23 @@ export default function Chat() {
       </div>
     </>
   );
+=======
+import React from 'react'
+import "./Chat.scss"; 
+import ChatHeader from './chat/ChatHeader';
+
+export default function Chat() {
+  return (
+    <>
+    <div className='chat'>
+        {/* チャットのヘッダー */}
+        <ChatHeader />
+        {/* メッセージ */}
+        <div className='ChatMessage'></div>
+        {/* チャット入力部分*/}
+        <div className='ChatInput'></div>
+    </div>
+    </>
+  )
+>>>>>>> e58d7d3335509d4ffb00cb3200f95008c9dfd11b
 }
