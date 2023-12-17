@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import "./SidebarChannel.scss";
 import { DocumentData } from "firebase/firestore";
@@ -37,22 +36,3 @@ const SidebarChannel = (props: ChannelProps) => {
 };
 
 export default SidebarChannel;
-=======
-import React from 'react'
-import "./SidebarChannel.scss";
-
-const SidebarChannel = () => {
-  return (
-    <>
-    <div className='sidebarChannel'>
-        <h4>
-            <span className='sidebarChannelHash'>#</span>
-            Udemy
-        </h4>
-    </div>
-    </>
-  )
-}
-
-export default SidebarChannel
->>>>>>> e58d7d3335509d4ffb00cb3200f95008c9dfd11b
